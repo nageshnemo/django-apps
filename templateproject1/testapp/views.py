@@ -11,5 +11,10 @@ import datetime
 
 def template_view(request):
     dt = datetime.datetime.now()
-    my_dict = {'date':dt}
+
+    name = "nagesh"
+    rollno = 62
+    marks = 100
+    my_dict = {'date':dt,'name':name,'rollno':rollno,'marks':marks}
+
     return render(request,'testapp/results.html',context = my_dict)
