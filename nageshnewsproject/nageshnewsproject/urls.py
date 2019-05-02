@@ -19,5 +19,9 @@ from testapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('naga', views.home_view),
+    path('', views.home_view),
+    path('movies', views.movie_news_view),
+    path('sports', views.sports_news_view),
+    path('politics', views.politics_news_view),
+
 ]
