@@ -3,6 +3,8 @@ from django.db import models
 # Create your models here.
 
 class Employee(models.Model):
+    # Model is a class which is present in models
+
     eno = models.IntegerField()
     ename = models.CharField(max_length = 64)
     esal = models.FloatField()
