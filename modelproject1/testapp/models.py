@@ -13,3 +13,5 @@ class Employee(models.Model):
 # behaviour
 # eno is of int contenttypes
 # ename is of char type and max no of allowed characters are = 64
+# Model is a python class which is present in models
+# employee is a child class models.models
