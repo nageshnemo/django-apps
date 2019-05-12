@@ -11,7 +11,8 @@ class Employee(models.Model):
     eaddr = models.CharField(max_length = 64)
 
     def __str__(self):
-        return self.ename,self.eno
+        return self.__dict__
+
 
 # table_name = testapp_employee
 # field name = eno,ename,esal and eaddr
