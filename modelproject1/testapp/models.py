@@ -9,15 +9,9 @@ class Employee(models.Model):
     ename = models.CharField(max_length = 64)
     esal = models.FloatField()
     eaddr = models.CharField(max_length = 64)
-    # we have no of fields like email field date field and lot one is there
-    # Boolean fiels
-    # datetime field
-    # file field for resume
-    # there were lots of field which we can use in making of web application
-    
-    def __str__(self):
-       return self.ename
 
+    def __str__(self):
+            return self.ename
 
 # table_name = testapp_employee
 # field name = eno,ename,esal and eaddr
